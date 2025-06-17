@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { SideBarTabList } from "../../data/SideBarTabList";
 import { FaBehance } from "react-icons/fa";
+import { SideBarTabList } from "../../../data/SideBarTabList";
 
 const Sidebar = ({
   isOpen,

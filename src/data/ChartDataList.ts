@@ -1,4 +1,19 @@
-export const ChartDataList1 = [
+export interface ChartDataList1Types {
+  year: number;
+  count: number;
+  remaining_count: string;
+  total_count: string;
+}
+
+export interface ChartDataList2Types {
+  quantity: number;
+  sell_quantity: number;
+  remaining_quantity: number;
+  year: number;
+  city: string;
+}
+
+export const ChartDataList1: ChartDataList1Types[] = [
   { year: 2010, count: 10, remaining_count: "40", total_count: "50" },
   { year: 2011, count: 20, remaining_count: "30", total_count: "50" },
   { year: 2012, count: 15, remaining_count: "35", total_count: "50" },
@@ -8,7 +23,7 @@ export const ChartDataList1 = [
   { year: 2016, count: 28, remaining_count: "22", total_count: "50" },
 ];
 
-export const ChartDataList2 = [
+export const ChartDataList2: ChartDataList2Types[] = [
   {
     quantity: 150,
     sell_quantity: 5,

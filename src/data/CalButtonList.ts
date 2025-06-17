@@ -1,4 +1,4 @@
-export const CalButtonList = [
+export const CalButtonList: string[] = [
   "(",
   "CE",
   ")",
